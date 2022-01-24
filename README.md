@@ -1,2 +1,9 @@
-# BWT-2021-2022
-ETF Sarajevo - Laboratorijske vježbe i projektni zadaci u sklopu predmeta Back-end web tehnologije
+# [ETF UNSA] Back-end web tehnologije 2021-22
+## Laboratorijske vježbe i Projekat
+
+### Korištene tehnologije na predmetu: JavaScript/NodeJS/Ajax/SQL
+
+#### Neovlašteno kopiranje, reprodukcija, objavljivanje, upload, preuzimanje, 
+#### mijenjanje, objavljivanje, prenošenje ili umnožavanje je STROGO ZABRANJENO!
+
+2022 © hkolos1 
