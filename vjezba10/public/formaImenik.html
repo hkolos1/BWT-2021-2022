@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stil.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Vježba 9 - Forma</title>
+</head>
+<body>
+<div class="login-page">
+    <div class="form">
+        <form class="login-form" action="http://localhost:3000/forma" method="POST" enctype="application/x-www-form-urlencoded">
+            <input for="ime" id="ime" placeholder="Ime" />
+            <input for="ime" id="prezime" placeholder="Prezime" />
+            <input for="adresa" id="adresa" placeholder="Adresa" />
+            <input for="brojTelefona" id="brojTelefona" placeholder="Broj Telefona" />
+            <button id="submit" onclick="posaljiFormu()">Potvrdi</button>
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="http://localhost:3000/public/formaImenik.js"></script>
+</body>
+
+</html>

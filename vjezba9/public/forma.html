@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stil.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Vježba 9 - Forma</title>
+</head>
+<body>
+<div class="login-page">
+    <div class="form">
+        <form class="login-form" action="http://localhost:3000/imenik" method="POST" enctype="application/x-www-form-urlencoded">
+            <input name="imePrezime" id="imePrezime" placeholder="Ime i Prezime" />
+            <input name="adresa" id="adresa" placeholder="Adresa" />
+            <input name="brojTelefona" id="brojTelefona" placeholder="Broj Telefona" />
+            <button id="submit" onclick="posaljiFormu()">Potvrdi</button>
+        </form>
+    </div>
+</div>
+<script src="http://localhost:3000/public/formaImenik.js"></script>
+</body>
+
+</html>
