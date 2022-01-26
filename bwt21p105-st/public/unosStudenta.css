@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FFD580;
+    font-family: 'Lato', sans-serif;
+}
+
+.omotac-vanjski {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.omotac-unutrasnji {
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #888888;
+    background-color: white;
+}
+
+.forma {
+    margin-block: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.forma > * {
+    margin-block: 10px;
+    font-size: 20px;
+}
+
+.forma input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 2px;
+}
+
+.forma input:active, input:focus {
+    outline: none;
+}
+
+.naslov {
+    font-size: 30px;
+    text-align: center;
+}
+
+.dugme-omotac {
+    display: flex;
+    justify-content: center;
+}
+
+.dugme {
+    font-size: 20px;
+    text-align: center;
+    background-color: #FFA219;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.drzac {
+    height: 40px;
+}
+
+#porukaServera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+}
+
+.los-odgovor-servera {
+    color: red;
+}
+
+.dobar-odgovor-servera {
+    color: forestgreen;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forma | Unos Studenta</title>
+    <link rel="stylesheet" href="unosStudenta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="omotac-vanjski">
+    <div class="omotac-unutrasnji">
+        <div class="drzac"></div>
+        <div class="naslov">Forma za unošenje novog studenta</div>
+        <form class="forma">
+            <label for="imeStudenta">Ime</label>
+            <input id="imeStudenta" type="text">
+            <label for="prezimeStudenta">Prezime</label>
+            <input id="prezimeStudenta" type="text">
+            <label for="indexStudenta">Index</label>
+            <input id="indexStudenta" type="text">
+            <label for="grupaStudenta">Grupa</label>
+            <input id="grupaStudenta" type="text">
+        </form>
+        <div class="dugme-omotac">
+            <button id="spasiDugme" class="dugme">Spasi</button>
+        </div>
+        <div id="porukaServera"></div>
+    </div>
+</div>
+<script src="AjaxPozivi.js"></script>
+<script src="unosStudenta.js"></script>
+</body>
+</html>
